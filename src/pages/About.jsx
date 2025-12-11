@@ -6,6 +6,7 @@
 import { useEffect } from 'react';
 import Timeline from '../components/Timeline';
 import SkillBadge from '../components/SkillBadge';
+import Certifications from '../components/Certifications';
 import { 
   personalInfo, 
   experience, 
@@ -45,7 +46,7 @@ const About = () => {
           <div className="page-hero-content reveal">
             <h1 className="page-title">About Me</h1>
             <p className="page-subtitle">
-              Data Analyst | Full Stack Developer | Problem Solver
+              Front End Developer | React Specialist | UI/UX Enthusiast
             </p>
           </div>
         </div>
@@ -205,6 +206,9 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      {/* Certifications Section */}
+      <Certifications />
 
       {/* Download CV Section */}
       <section className="section cv-section">
