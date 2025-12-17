@@ -206,7 +206,7 @@ export const socialLinks = [
 
 // Personal info
 export const personalInfo = {
-  name: 'Sailesh Siragerapalli',
+  name: 'Sailesh Siragarapalli',
   title: 'Data Analyst & Full Stack Developer',
   location: 'Visakhapatnam',
   email: 'siragarapallisailesh@gmail.com',
